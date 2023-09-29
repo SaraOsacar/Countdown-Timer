@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section-center {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+}
+
+.gif-img {
+  width: 100%;
+}
+
+.gif-info {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.coverGif {
+  max-width: 150%;
+  max-height: 800px;
+  height: auto;
+  margin-left: -70px;
+}
+
+.title {
+  font-size: 33px;
+  margin-bottom: 10px;
+  color: rgb(56, 55, 54);
+}
+
+.copy {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(56, 55, 54);
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgb(56, 55, 54);
+}
+
+.deadline {
+  display: flex;
+}
+
+.deadline-format {
+  text-align: center;
+  margin-right: 20px;
+  border: 2px solid #333;
+  background-color: rgb(31, 30, 30);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.deadline-format h4 {
+  font-size: 24;
+}
+.deadline-format span {
+  font-size: 14px;
+}
