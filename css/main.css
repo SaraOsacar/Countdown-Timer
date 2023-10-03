@@ -32,7 +32,9 @@ body {
 .title {
   font-size: 36px;
   margin-bottom: 10px;
-  color: rgb(56, 55, 54);
+  /*color: rgb(56, 55, 54);*/
+  /*color: rgb(213, 137, 109);*/
+  color: #886656;
   font-family: 'DM Serif Display', serif;
 }
 
@@ -63,7 +65,6 @@ body {
   padding: 10px;
   border-radius: 5px;
   width: 60px;
- 
 }
 
 .deadline-format h4 {
@@ -74,5 +75,76 @@ body {
   font-size: 17px;
   font-weight: bold;
   text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .section-center {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .gif-info {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .coverGif {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 37px;
+  }
+
+  .giveaway {
+    font-size: 25px;
+  }
+
+  .text {
+    font-size: 17px;
+  }
+  .deadline {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gif-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .giveaway {
+    font-size: 15px;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+  .deadline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .deadline-format {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    border: 2px solid #333;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    width: 60px;
+  }
 }
