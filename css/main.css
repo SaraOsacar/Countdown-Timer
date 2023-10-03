@@ -89,6 +89,7 @@ body {
 
   .coverGif {
     max-width: 100%;
+    margin-left: 0;
   }
 
   .title {
@@ -129,22 +130,19 @@ body {
     font-size: 10px;
   }
   .deadline {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
   }
   .deadline-format {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     text-align: center;
-
     border: 2px solid #333;
     background-color: rgb(31, 30, 30);
     color: white;
     padding: 3px;
     border-radius: 5px;
     width: 60px;
+    margin: 0 10px;
   }
 }
