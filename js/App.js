@@ -30,6 +30,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 console.log(items);
 
+
 let futureDate = new Date(2025, 1, 26, 13, 30, 0);
 
 const year = futureDate.getFullYear();
@@ -80,3 +81,10 @@ let countdown = setInterval(getRemainingTime, 1000);
 getRemainingTime();
 
 setInterval(getRemainingTime, 1000);
+
+//videoclip
+document.getElementById('watchVideoButton').addEventListener('click',function () {
+    
+    window.location.href =
+      'https://www.youtube.com/watch?v=blJKoXWlqJk&ab_channel=Thexx'; // 
+  });

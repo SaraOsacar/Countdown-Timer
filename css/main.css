@@ -76,6 +76,31 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+#watchVideoButton {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #watchVideoButton {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #watchVideoButton {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .section-center {
     flex-direction: column;
