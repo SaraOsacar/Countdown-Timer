@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   max-width: 800px;
+   
 }
 
 .gif-img {
@@ -32,10 +33,9 @@ body {
 .title {
   font-size: 36px;
   margin-bottom: 10px;
-  /*color: rgb(56, 55, 54);*/
-  /*color: rgb(213, 137, 109);*/
   color: #886656;
   font-family: 'DM Serif Display', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .giveaway {
@@ -81,23 +81,32 @@ body {
   background-color: rgb(31, 30, 30);
   color: white;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: 'DM Serif Display', serif;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  
 }
+#watchVideoButton:hover {
+   
+    transform: rotate(360deg);
+    transition: background-color 0.9s, color 0.9s, transform 0.9s;
+   
+}
+
 
 @media screen and (max-width: 768px) {
   #watchVideoButton {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 480px) {
   #watchVideoButton {
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 30px;
+    font-size: 15px;
   }
 }
 

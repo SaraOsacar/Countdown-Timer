@@ -82,9 +82,9 @@ getRemainingTime();
 
 setInterval(getRemainingTime, 1000);
 
-//videoclip
+
 document.getElementById('watchVideoButton').addEventListener('click',function () {
     
     window.location.href =
-      'https://www.youtube.com/watch?v=blJKoXWlqJk&ab_channel=Thexx'; // 
+      'https://open.spotify.com/album/2av2ZSHlvD7rvLSsMvtYCG?si=JrfPU77JS6KFZTE8VQrv2w'; 
   });
