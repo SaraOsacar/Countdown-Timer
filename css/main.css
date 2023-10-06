@@ -29,13 +29,39 @@ body {
   height: auto;
   margin-left: -70px;
 }
+@keyframes colorChange {
+  0% {
+    color: #a7a09c;
+    transform: translateX(0);
+  }
 
+  25% {
+    color: #65a2a2;
+      transform: translateX(10px);
+  }
+
+  50% {
+    color: #7d7171;
+    transform: translateX(0);
+  }
+
+  75% {
+    color: #658aa2;
+    transform: translateX(-10px);
+  }
+
+  100% {
+    color: #5a5553;
+    transform: translateX(0);
+  }
+}
 .title {
   font-size: 36px;
   margin-bottom: 10px;
   color: #886656;
   font-family: 'DM Serif Display', serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: colorChange 7s linear infinite;
 }
 
 .giveaway {
@@ -60,7 +86,7 @@ body {
   text-align: center;
   margin-right: 20px;
   border: 2px solid #333;
-  background-color: rgb(31, 30, 30);
+  background-color:rgb(46, 45, 45);
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -69,7 +95,9 @@ body {
 
 .deadline-format h4 {
   font-size: 27px;
-  color: rgb(172, 168, 238);
+  
+
+ 
 }
 .deadline-format span {
   font-size: 17px;
@@ -78,7 +106,7 @@ body {
 }
 
 #watchVideoButton {
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(46, 45, 45);
   color: white;
   padding: 10px 20px;
   font-size: 16px;
