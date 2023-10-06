@@ -72,7 +72,9 @@ function getRemainingTime() {
   });
   if (t < 0) {
     clearInterval(countdown);
-    deadline.innerHTML = `<h4 class="expired">Sorry, this sale has expired</h4>`;
+    deadline.innerHTML = `<h4 class="expired">
+
+The countdown has ended and tickets are now on sale on the band's official website</h4>`;
   }
 
 }
