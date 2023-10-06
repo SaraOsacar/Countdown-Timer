@@ -40,7 +40,7 @@ const minutes = futureDate.getMinutes();
 const date = futureDate.getDate();
 const weekday = weekdays[futureDate.getDay()];
 
-giveaway.textContent = `Tickets sales end on ${weekday}, ${date} ${monthName} ${year} ${hours}:${minutes}pm`;
+giveaway.textContent = `Tickets sales begin on ${weekday}, ${date} ${monthName} ${year}, ${hours}:${minutes}pm.`;
 
 const futureTime = futureDate.getTime();
 
