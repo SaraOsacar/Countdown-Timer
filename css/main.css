@@ -181,15 +181,16 @@ body {
   }
 
   .title {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .giveaway {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .text {
-    font-size: 10px;
+    font-size: 13px;
+    text-align: center;
   }
   .deadline {
     justify-content: center;
