@@ -135,6 +135,7 @@ body {
   #watchVideoButton {
     margin-top: 30px;
     font-size: 15px;
+    margin-bottom: 50px;
   }
 }
 
@@ -178,6 +179,7 @@ body {
   .gif-img {
     width: 100%;
     margin: 0 auto;
+    margin-top: 80px;
   }
 
   .title {
